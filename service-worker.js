@@ -1,1 +1,268 @@
-"use strict";var precacheConfig=[["404.html","7e7a71e69ba7d696e2bf0a359ee15a88"],["about/index.html","53435acdc53dd8917d75d6fa76a3d839"],["acg/index.html","cdbb9040063ef43dfcf7496ebd987722"],["archives/2020/12/index.html","c69d0a902a997e2a983b1ae0c63667e7"],["archives/2020/index.html","85f2e12a61d4ce1c90eaa6fa5abf6b78"],["archives/2021/01/index.html","64786a2e45122269f1514a98c6a88b68"],["archives/2021/index.html","e71c483aa6572a3c144bc543106647ef"],["archives/index.html","b83e4e6ba235c67baae9d894105d843a"],["artitalk/index.html","33c203df4a575c1da97bc8c23477d883"],["assets/douban-loading.gif","b86c6b435fc25c1366acaafc3fb5c252"],["baidu_verify_code-AX8mxggbVF.html","8562c7eb9bc99f7504f332bdd4f1ccc9"],["books/index.html","941130d731b0e4a141c2ee5786b5c605"],["categories/index.html","e79eba48a0a9968e729864d18b8fb704"],["categories/云评测/index.html","be28e8a39a13537d59f6455734deb332"],["categories/地理日志/index.html","fc76a3f7a2140f7367b73c83c5d801dd"],["categories/年度总结/index.html","2caebe133a4ef2710d397a0a550ced16"],["categories/悟/index.html","3bd8ace918c9b7edfe6189b234529e16"],["categories/视频分析/index.html","b84372380b117718731d4e61fe770b7b"],["categories/零基础教程/index.html","ae509d518c963992c540fb2e5e99b14f"],["css/index.css","6525b7deea3f709b4980ea5d809a2fcd"],["css/var.css","d41d8cd98f00b204e9800998ecf8427e"],["games/index.html","c77f6505e65c5f955371e42a0f4d4711"],["google0f5c03cd2e5ae90d.html","ebcf7304b6123dc222ed65c638e40895"],["img/404.jpg","4ef3cfb882b6dd4128da4c8745e9a507"],["img/algolia.svg","88450dd56ea1a00ba772424b30b7d34d"],["img/favicon.png","7a8c47cb5a2149c1a1af21e90ecd9ca7"],["img/friend_404.gif","68af0be9d22722e74665ef44dd532ba8"],["img/icp.png","6e26aed5ced63bc60524cc736611d39e"],["img/loading.gif","d1cf8d9ccb6a2b3514a7d14332035a3c"],["index.html","4752aa5ee1c4fb67b9b38c7d93250831"],["js/main.js","1c7d6eb8f8b1a9e2a06c37906146eb84"],["js/search/algolia.js","e6a9c3f8fa43a7d3421169ea96eef44e"],["js/search/local-search.js","86e7fcbc5aa273e6c3d2c94b0054809b"],["js/tw_cn.js","bd869d5fd54e2fe1f1eeee7c46fa46bc"],["js/utils.js","5720a78dca20fab16f21914ae3ac0757"],["link/index.html","06b3ac9946fc4777621d6795b6c88004"],["movies/index.html","ff84b2a74d3964d9563f8f4c824f3431"],["music/index.html","e9c38d743646f91199ced82acfec60a6"],["posts/11484/index.html","a2511b8717adc3cd7275cdcb0bf90184"],["posts/14819/index.html","ecab84d5a05e2ccf70bb8b2ef9fe00cd"],["posts/22362/index.html","28302bda0b255dc4f0ecd91055606ca4"],["posts/26008/index.html","6bb0f013e3a22023e31f8d57d55ba73e"],["posts/27671/index.html","30e1bf33a486a8924b143194d2497a56"],["posts/42521/index.html","9b583f5b82da1fe17d31cfd83a92fc7d"],["tags/2020/index.html","fe57067212ad5e13f26d41544451d09f"],["tags/Joker/index.html","fa753a741e853f48a3f557de96d68b03"],["tags/Redmi/index.html","07ea6698f2de372c4c1bf7133c1e6c30"],["tags/Ven-殃雾/index.html","7a4a9029ebfdd976cb4bd2dfaacc0f8c"],["tags/index.html","3b7ed8b18b453c8671f802fbb96bbee6"],["tags/上杉九月/index.html","402a585f41d1aa3e99fbe84df1145712"],["tags/云服务器/index.html","25bac15e11fa27eb7de3081669220a00"],["tags/云评测/index.html","6af44b24df82172c5d78c7eb1d340f6a"],["tags/图床/index.html","7218acb12edd0b376b4051be5fecfecc"],["tags/地理/index.html","1939db57125ce2068b44007382aef3d8"],["tags/年度总结/index.html","c6667f21c6bee8642e9316b160d1e01c"],["tags/教程/index.html","c48dc84fbb3fca0f0b8f4b8dfb582538"],["tags/编程风格/index.html","1d0a0e0491405e21230439b8949df431"],["tags/風邪/index.html","8488d052a80a846a6fb956956e2d1939"]],cacheName="sw-precache-v3--"+(self.registration?self.registration.scope:""),ignoreUrlParametersMatching=[/^utm_/],addDirectoryIndex=function(e,a){e=new URL(e);return"/"===e.pathname.slice(-1)&&(e.pathname+=a),e.toString()},cleanResponse=function(a){return a.redirected?("body"in a?Promise.resolve(a.body):a.blob()).then(function(e){return new Response(e,{headers:a.headers,status:a.status,statusText:a.statusText})}):Promise.resolve(a)},createCacheKey=function(e,a,t,c){e=new URL(e);return c&&e.pathname.match(c)||(e.search+=(e.search?"&":"")+encodeURIComponent(a)+"="+encodeURIComponent(t)),e.toString()},isPathWhitelisted=function(e,a){if(0===e.length)return!0;var t=new URL(a).pathname;return e.some(function(e){return t.match(e)})},stripIgnoredUrlParameters=function(e,t){e=new URL(e);return e.hash="",e.search=e.search.slice(1).split("&").map(function(e){return e.split("=")}).filter(function(a){return t.every(function(e){return!e.test(a[0])})}).map(function(e){return e.join("=")}).join("&"),e.toString()},hashParamName="_sw-precache",urlsToCacheKeys=new Map(precacheConfig.map(function(e){var a=e[0],e=e[1],a=new URL(a,self.location),e=createCacheKey(a,hashParamName,e,!1);return[a.toString(),e]}));function setOfCachedUrls(e){return e.keys().then(function(e){return e.map(function(e){return e.url})}).then(function(e){return new Set(e)})}self.addEventListener("install",function(e){e.waitUntil(caches.open(cacheName).then(function(c){return setOfCachedUrls(c).then(function(t){return Promise.all(Array.from(urlsToCacheKeys.values()).map(function(a){if(!t.has(a)){var e=new Request(a,{credentials:"same-origin"});return fetch(e).then(function(e){if(!e.ok)throw new Error("Request for "+a+" returned a response with status "+e.status);return cleanResponse(e).then(function(e){return c.put(a,e)})})}}))})}).then(function(){return self.skipWaiting()}))}),self.addEventListener("activate",function(e){var t=new Set(urlsToCacheKeys.values());e.waitUntil(caches.open(cacheName).then(function(a){return a.keys().then(function(e){return Promise.all(e.map(function(e){if(!t.has(e.url))return a.delete(e)}))})}).then(function(){return self.clients.claim()}))}),self.addEventListener("fetch",function(a){var t,e,c;"GET"===a.request.method&&(t=stripIgnoredUrlParameters(a.request.url,ignoreUrlParametersMatching),c="index.html",(e=urlsToCacheKeys.has(t))||(t=addDirectoryIndex(t,c),e=urlsToCacheKeys.has(t)),e&&a.respondWith(caches.open(cacheName).then(function(e){return e.match(urlsToCacheKeys.get(t)).then(function(e){if(e)return e;throw Error("The cached response that was expected is missing.")})}).catch(function(e){return console.warn('Couldn\'t serve response for "%s" from cache: %O',a.request.url,e),fetch(a.request)})))});
+/**
+ * Copyright 2016 Google Inc. All rights reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+*/
+
+// DO NOT EDIT THIS GENERATED OUTPUT DIRECTLY!
+// This file should be overwritten as part of your build process.
+// If you need to extend the behavior of the generated service worker, the best approach is to write
+// additional code and include it using the importScripts option:
+//   https://github.com/GoogleChrome/sw-precache#importscripts-arraystring
+//
+// Alternatively, it's possible to make changes to the underlying template file and then use that as the
+// new base for generating output, via the templateFilePath option:
+//   https://github.com/GoogleChrome/sw-precache#templatefilepath-string
+//
+// If you go that route, make sure that whenever you update your sw-precache dependency, you reconcile any
+// changes made to this original template file with your modified copy.
+
+// This generated service worker JavaScript will precache your site's resources.
+// The code needs to be saved in a .js file at the top-level of your site, and registered
+// from your pages in order to be used. See
+// https://github.com/googlechrome/sw-precache/blob/master/demo/app/js/service-worker-registration.js
+// for an example of how you can register this script and handle various service worker events.
+
+/* eslint-env worker, serviceworker */
+/* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
+'use strict';
+
+var precacheConfig = [["404.html","91e095db2e6e540d42b898e78eb273ed"],["about/index.html","02c76371d8829cb763c6abb32c1f8570"],["acg/index.html","bf3646f776e3d82dd6eb00577bbedd3d"],["archives/2020/12/index.html","644b1646c27b3f52b1d9dd4b726e6b43"],["archives/2020/index.html","fbeae8cfea9895818549779d7f1cb293"],["archives/2021/01/index.html","47b9a676eb5cfce28dcbcd2afa0bf23c"],["archives/2021/index.html","cc9fa180525c963e9d3a238c1463102e"],["archives/index.html","9e9f16da6a922c567a2da0094a8ec661"],["artitalk/index.html","22bc3e0b91a7135643d51e5f7ded3f24"],["assets/douban-loading.gif","b86c6b435fc25c1366acaafc3fb5c252"],["baidu_verify_code-AX8mxggbVF.html","8562c7eb9bc99f7504f332bdd4f1ccc9"],["books/index.html","6e86091513a715125f865eb0ea030971"],["categories/index.html","fa9cc9b298984f35b87e321209ad97e1"],["categories/云评测/index.html","2cc9b95f2b36bdeb0208f26f280a664a"],["categories/地理日志/index.html","e07d51db8c7e705a2d54acf55c562f2f"],["categories/年度总结/index.html","0199cd5c9be2ff4be841b19f54745b73"],["categories/悟/index.html","4f9e5cf1c2c84127d3305a4a0428b77a"],["categories/视频分析/index.html","4e50a19e72f95ea95e2df79763118036"],["categories/零基础教程/index.html","440f82d0c69562e457053663aebf05cb"],["css/index.css","ad7271b38c6ed8bcd29ae0e52ece18de"],["css/var.css","d41d8cd98f00b204e9800998ecf8427e"],["games/index.html","a8ddd2d7dc260df566c216f4f38ef800"],["google0f5c03cd2e5ae90d.html","ebcf7304b6123dc222ed65c638e40895"],["img/404.jpg","66153c06b426651075c83966d1e7d59e"],["img/algolia.svg","f36be37cfbfc4be962c64f77a88f4b9c"],["img/favicon.png","7a8c47cb5a2149c1a1af21e90ecd9ca7"],["img/friend_404.gif","d686d00c300a4bc90ed91261d21a1919"],["img/icp.png","6e26aed5ced63bc60524cc736611d39e"],["img/loading.gif","96ea68ce34478c213ca5c12e6d7c74ab"],["index.html","b02edc98adcc3592ef234e1f171aac12"],["js/main.js","51164446db6baaedfc3dff15acd6a9f9"],["js/search/algolia.js","7e0d793cc105cadb8eec6ee7ddc46362"],["js/search/local-search.js","4c26a3269d8a157230a939d640eb316f"],["js/tw_cn.js","42c99754804dd9c3bfa2b62451c843b7"],["js/utils.js","3425d1a3f7b9e15838341189f9502deb"],["link/index.html","d60c3f803c344569dde103458fedcabd"],["movies/index.html","c9a979d48d1861d8b108c6f8fee1010f"],["music/index.html","0d84d609470c9e4a8d3bfa57914a7284"],["posts/11484/index.html","7048141f71562e1c3a142968440eb15b"],["posts/14819/index.html","6574e65c4a53bfeefbc2caabd44ff12d"],["posts/22362/index.html","7a57828a95d9feff61ebfe391b5abf34"],["posts/26008/index.html","2561e83b8b95048cc4405f2dfdc37fae"],["posts/27671/index.html","d7c21d282e3414a6a0cc94c81a9240b4"],["posts/42521/index.html","10603b313c2a92d4dbd733a41dfeee17"],["tags/2020/index.html","dd162f2a908a6e08925409bc0ea9668d"],["tags/Joker/index.html","3607edaf07958a22760d2ef342760bc5"],["tags/Redmi/index.html","39faabee65f74d3b295a0702c51afa56"],["tags/Ven-殃雾/index.html","ba8572269429a58c6f45413d23c9dbc7"],["tags/index.html","0c2f434017c2bf7d3f64b98c5dd745b7"],["tags/上杉九月/index.html","0687a891f85450733ddf7eb99ffc040c"],["tags/云服务器/index.html","a686a68e493d8850649a55bd0362d860"],["tags/云评测/index.html","eb740012eb349da379f2439fc53707b4"],["tags/图床/index.html","99801774d96cb0d7a0a1a018e57e3ffa"],["tags/地理/index.html","86cd0ec623fc9fc6c550202c9281d974"],["tags/年度总结/index.html","7d42ebc0b987bb2aec0a9d807719b53a"],["tags/教程/index.html","9536a92bcd5561f855fc0d5696939778"],["tags/编程风格/index.html","fe5b36a7f65f76d9361b01e78e204a75"],["tags/風邪/index.html","c5a249d28025efa1303ad693f244e745"]];
+var cacheName = 'sw-precache-v3--' + (self.registration ? self.registration.scope : '');
+
+
+var ignoreUrlParametersMatching = [/^utm_/];
+
+
+
+var addDirectoryIndex = function(originalUrl, index) {
+    var url = new URL(originalUrl);
+    if (url.pathname.slice(-1) === '/') {
+      url.pathname += index;
+    }
+    return url.toString();
+  };
+
+var cleanResponse = function(originalResponse) {
+    // If this is not a redirected response, then we don't have to do anything.
+    if (!originalResponse.redirected) {
+      return Promise.resolve(originalResponse);
+    }
+
+    // Firefox 50 and below doesn't support the Response.body stream, so we may
+    // need to read the entire body to memory as a Blob.
+    var bodyPromise = 'body' in originalResponse ?
+      Promise.resolve(originalResponse.body) :
+      originalResponse.blob();
+
+    return bodyPromise.then(function(body) {
+      // new Response() is happy when passed either a stream or a Blob.
+      return new Response(body, {
+        headers: originalResponse.headers,
+        status: originalResponse.status,
+        statusText: originalResponse.statusText
+      });
+    });
+  };
+
+var createCacheKey = function(originalUrl, paramName, paramValue,
+                           dontCacheBustUrlsMatching) {
+    // Create a new URL object to avoid modifying originalUrl.
+    var url = new URL(originalUrl);
+
+    // If dontCacheBustUrlsMatching is not set, or if we don't have a match,
+    // then add in the extra cache-busting URL parameter.
+    if (!dontCacheBustUrlsMatching ||
+        !(url.pathname.match(dontCacheBustUrlsMatching))) {
+      url.search += (url.search ? '&' : '') +
+        encodeURIComponent(paramName) + '=' + encodeURIComponent(paramValue);
+    }
+
+    return url.toString();
+  };
+
+var isPathWhitelisted = function(whitelist, absoluteUrlString) {
+    // If the whitelist is empty, then consider all URLs to be whitelisted.
+    if (whitelist.length === 0) {
+      return true;
+    }
+
+    // Otherwise compare each path regex to the path of the URL passed in.
+    var path = (new URL(absoluteUrlString)).pathname;
+    return whitelist.some(function(whitelistedPathRegex) {
+      return path.match(whitelistedPathRegex);
+    });
+  };
+
+var stripIgnoredUrlParameters = function(originalUrl,
+    ignoreUrlParametersMatching) {
+    var url = new URL(originalUrl);
+    // Remove the hash; see https://github.com/GoogleChrome/sw-precache/issues/290
+    url.hash = '';
+
+    url.search = url.search.slice(1) // Exclude initial '?'
+      .split('&') // Split into an array of 'key=value' strings
+      .map(function(kv) {
+        return kv.split('='); // Split each 'key=value' string into a [key, value] array
+      })
+      .filter(function(kv) {
+        return ignoreUrlParametersMatching.every(function(ignoredRegex) {
+          return !ignoredRegex.test(kv[0]); // Return true iff the key doesn't match any of the regexes.
+        });
+      })
+      .map(function(kv) {
+        return kv.join('='); // Join each [key, value] array into a 'key=value' string
+      })
+      .join('&'); // Join the array of 'key=value' strings into a string with '&' in between each
+
+    return url.toString();
+  };
+
+
+var hashParamName = '_sw-precache';
+var urlsToCacheKeys = new Map(
+  precacheConfig.map(function(item) {
+    var relativeUrl = item[0];
+    var hash = item[1];
+    var absoluteUrl = new URL(relativeUrl, self.location);
+    var cacheKey = createCacheKey(absoluteUrl, hashParamName, hash, false);
+    return [absoluteUrl.toString(), cacheKey];
+  })
+);
+
+function setOfCachedUrls(cache) {
+  return cache.keys().then(function(requests) {
+    return requests.map(function(request) {
+      return request.url;
+    });
+  }).then(function(urls) {
+    return new Set(urls);
+  });
+}
+
+self.addEventListener('install', function(event) {
+  event.waitUntil(
+    caches.open(cacheName).then(function(cache) {
+      return setOfCachedUrls(cache).then(function(cachedUrls) {
+        return Promise.all(
+          Array.from(urlsToCacheKeys.values()).map(function(cacheKey) {
+            // If we don't have a key matching url in the cache already, add it.
+            if (!cachedUrls.has(cacheKey)) {
+              var request = new Request(cacheKey, {credentials: 'same-origin'});
+              return fetch(request).then(function(response) {
+                // Bail out of installation unless we get back a 200 OK for
+                // every request.
+                if (!response.ok) {
+                  throw new Error('Request for ' + cacheKey + ' returned a ' +
+                    'response with status ' + response.status);
+                }
+
+                return cleanResponse(response).then(function(responseToCache) {
+                  return cache.put(cacheKey, responseToCache);
+                });
+              });
+            }
+          })
+        );
+      });
+    }).then(function() {
+      
+      // Force the SW to transition from installing -> active state
+      return self.skipWaiting();
+      
+    })
+  );
+});
+
+self.addEventListener('activate', function(event) {
+  var setOfExpectedUrls = new Set(urlsToCacheKeys.values());
+
+  event.waitUntil(
+    caches.open(cacheName).then(function(cache) {
+      return cache.keys().then(function(existingRequests) {
+        return Promise.all(
+          existingRequests.map(function(existingRequest) {
+            if (!setOfExpectedUrls.has(existingRequest.url)) {
+              return cache.delete(existingRequest);
+            }
+          })
+        );
+      });
+    }).then(function() {
+      
+      return self.clients.claim();
+      
+    })
+  );
+});
+
+
+self.addEventListener('fetch', function(event) {
+  if (event.request.method === 'GET') {
+    // Should we call event.respondWith() inside this fetch event handler?
+    // This needs to be determined synchronously, which will give other fetch
+    // handlers a chance to handle the request if need be.
+    var shouldRespond;
+
+    // First, remove all the ignored parameters and hash fragment, and see if we
+    // have that URL in our cache. If so, great! shouldRespond will be true.
+    var url = stripIgnoredUrlParameters(event.request.url, ignoreUrlParametersMatching);
+    shouldRespond = urlsToCacheKeys.has(url);
+
+    // If shouldRespond is false, check again, this time with 'index.html'
+    // (or whatever the directoryIndex option is set to) at the end.
+    var directoryIndex = 'index.html';
+    if (!shouldRespond && directoryIndex) {
+      url = addDirectoryIndex(url, directoryIndex);
+      shouldRespond = urlsToCacheKeys.has(url);
+    }
+
+    // If shouldRespond is still false, check to see if this is a navigation
+    // request, and if so, whether the URL matches navigateFallbackWhitelist.
+    var navigateFallback = '';
+    if (!shouldRespond &&
+        navigateFallback &&
+        (event.request.mode === 'navigate') &&
+        isPathWhitelisted([], event.request.url)) {
+      url = new URL(navigateFallback, self.location).toString();
+      shouldRespond = urlsToCacheKeys.has(url);
+    }
+
+    // If shouldRespond was set to true at any point, then call
+    // event.respondWith(), using the appropriate cache key.
+    if (shouldRespond) {
+      event.respondWith(
+        caches.open(cacheName).then(function(cache) {
+          return cache.match(urlsToCacheKeys.get(url)).then(function(response) {
+            if (response) {
+              return response;
+            }
+            throw Error('The cached response that was expected is missing.');
+          });
+        }).catch(function(e) {
+          // Fall back to just fetch()ing the request if some unexpected error
+          // prevented the cached response from being valid.
+          console.warn('Couldn\'t serve response for "%s" from cache: %O', event.request.url, e);
+          return fetch(event.request);
+        })
+      );
+    }
+  }
+});
+
+
+
+
+
+
+
