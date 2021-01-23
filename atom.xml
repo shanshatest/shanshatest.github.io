@@ -79,13 +79,13 @@
     <category term="零基础教程" scheme="https://shanshatest.github.io/categories/%E9%9B%B6%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="上杉九月" scheme="https://shanshatest.github.io/tags/%E4%B8%8A%E6%9D%89%E4%B9%9D%E6%9C%88/"/>
-    
     <category term="云服务器" scheme="https://shanshatest.github.io/tags/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
     <category term="图床" scheme="https://shanshatest.github.io/tags/%E5%9B%BE%E5%BA%8A/"/>
     
     <category term="教程" scheme="https://shanshatest.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="上杉九月" scheme="https://shanshatest.github.io/tags/%E4%B8%8A%E6%9D%89%E4%B9%9D%E6%9C%88/"/>
     
   </entry>
   
@@ -131,9 +131,9 @@
     <category term="悟" scheme="https://shanshatest.github.io/categories/%E6%82%9F/"/>
     
     
-    <category term="编程风格" scheme="https://shanshatest.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A3%8E%E6%A0%BC/"/>
-    
     <category term="Ven_殃雾" scheme="https://shanshatest.github.io/tags/Ven-%E6%AE%83%E9%9B%BE/"/>
+    
+    <category term="编程风格" scheme="https://shanshatest.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A3%8E%E6%A0%BC/"/>
     
   </entry>
   
@@ -154,11 +154,11 @@
     <category term="视频分析" scheme="https://shanshatest.github.io/categories/%E8%A7%86%E9%A2%91%E5%88%86%E6%9E%90/"/>
     
     
-    <category term="Ven_殃雾" scheme="https://shanshatest.github.io/tags/Ven-%E6%AE%83%E9%9B%BE/"/>
+    <category term="上杉九月" scheme="https://shanshatest.github.io/tags/%E4%B8%8A%E6%9D%89%E4%B9%9D%E6%9C%88/"/>
     
     <category term="Joker" scheme="https://shanshatest.github.io/tags/Joker/"/>
     
-    <category term="上杉九月" scheme="https://shanshatest.github.io/tags/%E4%B8%8A%E6%9D%89%E4%B9%9D%E6%9C%88/"/>
+    <category term="Ven_殃雾" scheme="https://shanshatest.github.io/tags/Ven-%E6%AE%83%E9%9B%BE/"/>
     
   </entry>
   
